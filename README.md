@@ -10,3 +10,6 @@
 ## Graphiql
 
 <img width="664" alt="Screen Shot 2022-01-23 at 11 48 36 PM" src="https://user-images.githubusercontent.com/25805072/150723673-e0f2d723-3a2c-45fc-8b56-f0754d954827.png">
+
+## MongoDB Compass
+mongodb+srv://sid:*****@clustersid26.lfwh9.mongodb.net/test?authSource=admin&replicaSet=atlas-liwoxu-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
