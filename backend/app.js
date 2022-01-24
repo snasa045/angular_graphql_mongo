@@ -27,7 +27,7 @@ app.use(
 
 mongoose
   .connect(
-    `mongodb+srv://${config.user}:${config.password}@cluster0-mvcmf.mongodb.net/${config.dbname}?retryWrites=true&w=majority`,
+    `mongodb+srv://${config.user}:${config.password}@clustersid26.lfwh9.mongodb.net/${config.dbname}?retryWrites=true&w=majority`,
     {
       useUnifiedTopology: true,
       useNewUrlParser: true,

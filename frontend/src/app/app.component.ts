@@ -41,17 +41,16 @@ const DELETE_QUOTE = gql`
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"],
 })
 export class AppComponent implements OnInit {
   title = "frontend";
 
-  quotes: Observable<any>;
+  quotes$: Observable<any>;
 
   constructor(private apollo: Apollo) {}
 
   ngOnInit() {
-    this.quotes = this.apollo
+    this.quotes$ = this.apollo
       .watchQuery({
         query: GET_QUOTES,
       })
